@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vicky Joseph: Final Portfolio</title>
+    <!-- linking to bootstrap -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <!-- linking to local stylesheet -->
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body>
+    <!-- code from example -->
+    <header>
+      <div class="navbar navbar-dark bg-dark box-shadow">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <strong>Vicky Joseph</strong>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">Vicky Joseph - Final Portfolio</h1>
+          <p class="lead text-muted">
+            Overview of the React/React Native projects and Designs I've worked on!
+          </p>
+          <p>
+            <a href="#about" class="btn btn-primary my-2"
+              >About</a
+            >
+            <a href="#projects" class="btn btn-primary my-2"
+              >Completed Projects</a
+            >
+            <a href= "#contactInfo" class="btn btn-secondary my-2">Contact Info</a>
+          </p>
+        </div>
+      </section>
+
+      <div id="about">
+        <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4>About</h4>
+            <p class="text-muted" >
+              Web developer with an interest in User-Centered Design. Educated at the University of Central Florida. Knowledgable in React, React Native, PHP, PHPMyAdmin, JavaScript, CSS, SASS, and HTML.
+            </p>
+          </div>
+        </div>
+
+        <div id="projects">
+        <div class="album py-5 bg-light">
+            <div class="container">
+            <h3>Completed Projects</h3>
+            <div class="row">
+                <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <video class="card-img-top" controls muted>
+                    <source src="menuApp.mp4" type="video/mp4" />
+                    </video>
+                    <div class="card-body">
+                    <p class="card-text">
+                        <strong>Menu App</strong>
+                        This is a mock resturant's menu, which accesses all the menu items from an external source, rather than being hard coded in. 
+                    </p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <video controls muted class="card-img-top" src="todoApp.mp4"></video>
+                    <div class="card-body">
+                    <p class="card-text">
+                        <strong>To-Do App</strong>
+                        This is a app that allows users to create a virtual to-do list, with full functionality. They can check off completed items and add new items to work on. 
+                    </p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <video controls muted class="card-img-top" src="exerciseApp.mp4"></video>
+                    <div class="card-body">
+                    <p class="card-text">
+                        <strong>Exercise App</strong>
+                        This is an exercise app that allows users to select a workout, then record their time or reps. Additionally, they can lap their times and are reccommened new exercises to try.
+                    </p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <video controls muted class="card-img-top" src="quizApp.mp4"></video>
+                    <div class="card-body">
+                    <p class="card-text">
+                        <strong>Quiz App</strong>
+                        This app allows the users to take a quiz and see their correct and inocrrect answers when done. The users can answer multiple choice, multiple select, or true-or-false questions.
+                    </p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <img
+                    class="card-img-top"
+                    src="todo app design.png"
+                    alt="Card image cap"
+                    />
+                    <div class="card-body">
+                    <p class="card-text">
+                        <strong>To-Do App Design</strong>
+                        This is a potentail design for a to-do app. Including the ability for users to create new to-dos, delete uneeded ones and create a user account.  
+                    </p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <img
+                    class="card-img-top"
+                    src="flashcard design.png"
+                    alt="Card image cap"
+                    />
+                    <div class="card-body">
+                    <p class="card-text">
+                        <strong>FlashCard App Design</strong>
+                        This app allows users to input flashcard study sets and then use these virtual flashcards to study. The user also has the ablility to search for other published studysets if they desire. 
+                    </p>
+                    </div>
+                    </div>
+                    </div>
+                 </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="text-muted">
+        <div id="contactInfo">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Back to top</a>
+        </p>
+        <h4>Contact Information</h4>
+        <ul class="list-unstyled">
+            <li><a href="https://www.linkedin.com/in/vickywjoseph/" class="text-muted">Follow Me on LinkedIn</a></li>
+            <li><a href="https://vickywallynjoseph@gmail.com" class="text-muted">Email me</a></li>
+            </ul>
+            <p class="text-muted" class="text-center"> Contact me for further inquires!
+        </div>
+        </div>
+        </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jquery code -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
