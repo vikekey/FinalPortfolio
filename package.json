@@ -1,4 +1,5 @@
 {
+  "homepage": "https://vikekey.github.io/FinalPortfolio",
   "dependencies": {
     "bootstrap": "^5.3.3",
     "jquery": "^3.7.1"
