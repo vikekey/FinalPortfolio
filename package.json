@@ -1,7 +1,7 @@
 {
   "name": "your-project-name",
   "version": "1.0.0",
-  "homepage": "https://vikekey.github.io/FinalPortfolio/",
+  "homepage": "https://vikekey.github.io/Portfolio/",
   "build": "webpack --mode production",
   "deploy": "gh-pages -d dist",
   "dependencies": {
